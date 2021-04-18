@@ -19,7 +19,7 @@ sudo cp $HOME/git/cardano-node/dist-newstyle/build/x86_64-linux/ghc-8.10.2/carda
 
 sudo cp $HOME/git/cardano-node/dist-newstyle/build/x86_64-linux/ghc-8.10.2/cardano-node-$version/x/cardano-node/build/cardano-node/cardano-node /usr/local/bin/cardano-node
 
-echo "Version check"
+echo "Version check : $version"
 
 cardano-node version
 cardano-cli version
